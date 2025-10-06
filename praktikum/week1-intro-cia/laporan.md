@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
 Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: Reza Dwi Nugroho  
+NIM: 230202781  
+Kelas: 5 IKRB 
 
 ---
 
