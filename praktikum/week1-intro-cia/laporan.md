@@ -79,7 +79,7 @@ Praktikum minggu pertama berhasil diselesaikan dengan penyiapan repositori GitHu
 ## 10. Commit Log
 ```
 commit 693b8b6
-Author: rejadwi016@gmail.com
+Author: Reza Dwi Nugroho <rejadwi016@gmail.com>
 Date:   2025-10-09
 
     week1-intro-cia
