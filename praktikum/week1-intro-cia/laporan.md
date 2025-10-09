@@ -50,6 +50,11 @@ Pada praktikum minggu ini tidak ada pembuatan atau modifikasi source code progar
 ## 6. Hasil dan Pembahasan
 Repositori GitHub berhasil disiapkan sesuai dengan panduan. Struktur folder dan file laporan telah dibuat. Ringkasan materi dan jawaban kuis telah diselesaikan di dalam laporan ini. Hasilnya sesuai dengan ekspektasi dari tujuan praktikum, di mana lingkungan kerja untuk praktikum selanjutnya telah siap digunakan. Tidak ada error yang ditemui selama proses penyiapan.
 
+Berikut adalah bukti screenshot:
+![Repo Setup](/praktikum/week1-intro-cia/screenshots/repo%20setup.png)
+![Initial Commit](/praktikum/week1-intro-cia/screenshots/initial%20commit.png)
+
+
 ---
 
 ## 7. Jawaban Pertanyaan
