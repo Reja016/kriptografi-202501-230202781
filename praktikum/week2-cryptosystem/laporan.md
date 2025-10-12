@@ -1,8 +1,8 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 2
-Topik: Cryptosystem (Komponen, Enkripsi & Dekripsi, Simetris & Asimetris) 
+Minggu ke-: 2  
+Topik: Cryptosystem (Komponen, Enkripsi & Dekripsi, Simetris & Asimetris)  
 Nama: Reza Dwi Nugroho  
-NIM: 230202781
+NIM: 230202781  
 Kelas: 5 IKRB  
 
 ---
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 Program Caesar Cipher berhasil diimplementasikan sesuai dengan tujuan praktikum. Pengujian fungsionalitas dilakukan dengan beberapa skenario input untuk memvalidasii proses enkripsi dan dekripsi. Hasilnya disajikan dalam tabel berikut:
 
 |Plaintext|Kunci|Mode|Hasil Program|Status|
-|:---|:---|:---|:---|:---|:---|
+|---|---|---|---|---|---|
 |<230202781><Reza Dwi NUgroho>|5|enkrip|<785757236><Wjef Ibn SZlwtmt>|**Sesuai**|
 |<785757236><Wjef Ibn SZlwtmt>|5|dekrip|<230202781><Reza Dwi NUgroho>|**Sesuai**|
 |universitas putra bangsa|2|enkrip|wpkxgtukvcu rwvtc dcpiuc|**Sesuai**|
@@ -121,7 +121,7 @@ Hasil eksekusi program Caesar Cipher:
 
 - Pertanyaan 2: Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?
 |Aspek|Kriptografi Simetris (Contoh: AES, DES)|Kriptografi Asimetris (Contoh: RSA, ECC)|
-|:---|:---|:---|
+|---|---|---|
 |Kunci|Menggunakan satu kunci rahasia yang sama untuk enkripsi dan dekripsi|Menggunakan sepasang kunci: satu kunci publik (untuk enkripsi) dan satu kunci privat (untuk dekripsi)|
 |Kelebihan|Kecepatan Tinggi: Secara komputasi sangat efisien dan cepat, ideal untuk mengenkripsi data bervolume besar seperti file atau streaming video|Manajemen Kunci Aman: Memecahkan masalah distribusi kunci. Kunci publik bisa disebar bebas tanpa risiko keamanan|
 Kelemahan|Masalah Distribusi Kunci: Tantangan terbesarnya adalah bagaimana cara membagikan kunci rahasia secara aman kepada penerima|
@@ -155,7 +155,7 @@ Secara keseluruhan, praktikum ini memberikan fondasi pemahaman bahwa kriptografi
 
 ## 10. Commit Log
 ```
-commit abc12345
+commit 33775367dfe810083124f4857e6b62521b4caafa
 Author: Reza Dwi Nugroho <rejadwi016@gmail.com>
 Date:   2025-10-12
 
