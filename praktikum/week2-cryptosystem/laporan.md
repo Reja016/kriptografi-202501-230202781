@@ -98,8 +98,8 @@ Program Caesar Cipher berhasil diimplementasikan sesuai dengan tujuan praktikum.
 
 | Plaintext                     | Kunci | Mode   | Hasil Program                | Status   |
 |-------------------------------|-------|--------|------------------------------|----------|
-| <230202781><Reza Dwi NUgroho> | 5     | enkrip | <785757236><Wjef Ibn SZlwtmt> | **Sesuai** |
-| <785757236><Wjef Ibn SZlwtmt> | 5     | dekrip | <230202781><Reza Dwi NUgroho> | **Sesuai** |
+| 230202781 Reza Dwi NUgroho | 5     | enkrip | 785757236 Wjef Ibn SZlwtmt | **Sesuai** |
+| 785757236 Wjef Ibn SZlwtmt | 5     | dekrip | 230202781 Reza Dwi NUgroho | **Sesuai** |
 | universitas putra bangsa       | 2     | enkrip | wpkxgtukvcu rwvtc dcpiuc      | **Sesuai** |
 | wpkxgtukvcu rwvtc dcpiuc       | 2     | dekrip | universitas putra bangsa      | **Sesuai** |
 
