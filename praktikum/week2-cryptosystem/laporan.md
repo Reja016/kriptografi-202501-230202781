@@ -97,7 +97,7 @@ if __name__ == "__main__":
 Program Caesar Cipher berhasil diimplementasikan sesuai dengan tujuan praktikum. Pengujian fungsionalitas dilakukan dengan beberapa skenario input untuk memvalidasii proses enkripsi dan dekripsi. Hasilnya disajikan dalam tabel berikut:
 
 | Plaintext | Kunci | Mode | Hasil Program | Status |  
-|-----------|-------|------|---------------|--------|  
+|-------------------------------|-----|-------|------------------------------|--------|  
 | <230202781><Reza Dwi NUgroho> | 5 | enkrip | <785757236><Wjef Ibn SZlwtmt> | **Sesuai** |  
 | <785757236><Wjef Ibn SZlwtmt> | 5 | dekrip | <230202781><Reza Dwi NUgroho> |**Sesuai**|  
 | universitas putra bangsa | 2 | enkrip | wpkxgtukvcu rwvtc dcpiuc | **Sesuai** |  
@@ -120,8 +120,9 @@ Hasil eksekusi program Caesar Cipher:
 5. Kunci (Key): Sebuah parameter rahasia yang mengontrol operasi algoritma enkripsi dan dekripsi. Keamanan seluruh sistem bergantung pada kerahasiaan dan kompleksitas kunci ini.
 
 - Pertanyaan 2: Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?  
+
 | Aspek | Kriptografi Simetris (Contoh: AES, DES) | Kriptografi Asimetris (Contoh: RSA, ECC) |  
-|-------|-----------------------------------------|-------------------------------------------|  
+|-------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|  
 | Kunci | Menggunakan satu kunci rahasia yang sama untuk enkripsi dan dekripsi | Menggunakan sepasang kunci: satu kunci publik (untuk enkripsi) dan satu kunci privat (untuk dekripsi) |  
 | Kelebihan | Kecepatan Tinggi: Secara komputasi sangat efisien dan cepat, ideal untuk mengenkripsi data bervolume besar seperti file atau streaming video | Manajemen Kunci Aman: Memecahkan masalah distribusi kunci. Kunci publik bisa disebar bebas tanpa risiko keamanan |  
 Kelemahan | Masalah Distribusi Kunci: Tantangan terbesarnya adalah bagaimana cara membagikan kunci rahasia secara aman kepada penerima | 
