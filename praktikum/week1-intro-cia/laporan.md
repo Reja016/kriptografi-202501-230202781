@@ -54,7 +54,6 @@ Berikut adalah bukti screenshot:
 ![Repo Setup](/praktikum/week1-intro-cia/screenshots/repo_setup.png)
 ![Initial Commit](/praktikum/week1-intro-cia/screenshots/initial_commit.png)
 
-
 ---
 
 ## 7. Jawaban Pertanyaan
