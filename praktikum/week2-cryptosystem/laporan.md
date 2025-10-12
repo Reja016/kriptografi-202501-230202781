@@ -96,12 +96,13 @@ if __name__ == "__main__":
 ## 6. Hasil dan Pembahasan
 Program Caesar Cipher berhasil diimplementasikan sesuai dengan tujuan praktikum. Pengujian fungsionalitas dilakukan dengan beberapa skenario input untuk memvalidasii proses enkripsi dan dekripsi. Hasilnya disajikan dalam tabel berikut:
 
-| Plaintext | Kunci | Mode | Hasil Program | Status |  
-|-------------------------------|-----|-------|------------------------------|--------|  
-| <230202781><Reza Dwi NUgroho> | 5 | enkrip | <785757236><Wjef Ibn SZlwtmt> | **Sesuai** |  
-| <785757236><Wjef Ibn SZlwtmt> | 5 | dekrip | <230202781><Reza Dwi NUgroho> |**Sesuai**|  
-| universitas putra bangsa | 2 | enkrip | wpkxgtukvcu rwvtc dcpiuc | **Sesuai** |  
-| wpkxgtukvcu rwvtc dcpiuc | 2 | dekrip | universitas putra bangsa | **Sesuai** |  
+| Plaintext                     | Kunci | Mode   | Hasil Program                | Status   |
+|-------------------------------|-------|--------|------------------------------|----------|
+| <230202781><Reza Dwi NUgroho> | 5     | enkrip | <785757236><Wjef Ibn SZlwtmt> | **Sesuai** |
+| <785757236><Wjef Ibn SZlwtmt> | 5     | dekrip | <230202781><Reza Dwi NUgroho> | **Sesuai** |
+| universitas putra bangsa       | 2     | enkrip | wpkxgtukvcu rwvtc dcpiuc      | **Sesuai** |
+| wpkxgtukvcu rwvtc dcpiuc       | 2     | dekrip | universitas putra bangsa      | **Sesuai** |
+
 
 Seperti yang ditunjukkan pada tabel, program berjalan tanpa error dan memberikan output yang benar sesuai dengan prinsip kerja Caesar Cipher. 
 
@@ -121,12 +122,12 @@ Hasil eksekusi program Caesar Cipher:
 
 - Pertanyaan 2: Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?  
 
-| Aspek | Kriptografi Simetris (Contoh: AES, DES) | Kriptografi Asimetris (Contoh: RSA, ECC) |  
-|-------|-----------------------------------------------------------------------|------------------------------------------------------------------------------|  
-| Kunci | Menggunakan satu kunci rahasia yang sama untuk enkripsi dan dekripsi | Menggunakan sepasang kunci: satu kunci publik (untuk enkripsi) dan satu kunci privat (untuk dekripsi) |  
-| Kelebihan | Kecepatan Tinggi | Manajemen Kunci Aman: Memecahkan masalah distribusi kunci. Kunci publik bisa disebar bebas tanpa risiko keamanan |  
-Kelemahan | Masalah Distribusi Kunci: Tantangan terbesarnya adalah bagaimana cara membagikan kunci rahasia secara aman kepada penerima |
-  Kecepatan Lambat |  
+| Aspek      | Kriptografi Simetris (Contoh: AES, DES)                                                                 | Kriptografi Asimetris (Contoh: RSA, ECC)                                                                          |
+|-------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Kunci**   | Menggunakan satu kunci rahasia yang sama untuk enkripsi dan dekripsi                                    | Menggunakan sepasang kunci: satu kunci publik (untuk enkripsi) dan satu kunci privat (untuk dekripsi)              |
+| **Kelebihan** | Kecepatan Tinggi: Secara komputasi sangat efisien dan cepat, ideal untuk mengenkripsi data bervolume besar seperti file atau streaming video | Manajemen Kunci Aman: Memecahkan masalah distribusi kunci. Kunci publik bisa disebar bebas tanpa risiko keamanan |
+| **Kelemahan** | Masalah Distribusi Kunci: Tantangan terbesarnya adalah bagaimana cara membagikan kunci rahasia secara aman kepada penerima | Kecepatan Lambat: Jauh lebih lambat karena melibatkan operasi matematika yang sangat kompleks                     |
+
 
 - Pertanyaan 3: Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris?  
 Distribusi kunci adalah "tumit Achilles" dari kriptografi simetris. Masalah ini muncul karena prasyarat utama agar komunikasi aman dapat terjadi adalah kedua belah pihak harus sudah memiliki kunci rahasia yang identik. Ini menciptakan dilema logis:  
