@@ -100,13 +100,13 @@ Hasil eksekusi program :
 ---
 
 ## 7. Jawaban Pertanyaan
-1. # Apa peran aritmetika modular dalam kriptografi modern?  
+1. **Apa peran aritmetika modular dalam kriptografi modern?**  
 Aritmetika modular adalah tulang punggung dari kriptografi kunci publik. Perannya adalah untuk menciptakan struktur matematika (seperti grup dan field hingga) di mana operasi "mudah" dilakukan dalam satu arah tetapi sangat "sulit" untuk dibalik. Sifat one-way function ini, contohnya pada eksponensiasi modular vs. logaritma diskrit, memungkinkan pembuatan kunci publik dan privat yang aman. Algoritma seperti RSA, Diffie-Hellman, dan Elliptic Curve Cryptography (ECC) semuanya bergantung pada properti aritmetika modular.  
 
-2. # Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?  
+2. **Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?**  
 Dalam RSA, invers modular sangat krusial untuk proses dekripsi. Kunci publik terdiri dari `(e, n)` dan kunci privat terdiri dari `(d, n)`, di mana `d` adalah invers modular dari `e` pada modulus `φ(n)` (phi Euler dari n). Artinya, `d * e ≡ 1 (mod φ(n))`. Proses enkripsi adalah `C = M^e (mod n)`. Untuk mendekripsi, kita menghitung `M = C^d (mod n)`. Tanpa `d` sebagai invers modular dari `e`, operasi dekripsi tidak akan dapat mengembalikan pesan asli `M`. Jadi, invers modular adalah jembatan matematis yang menghubungkan kunci privat dengan kunci publik dan memungkinkan pesan dienkripsi dan didekripsi dengan benar.  
 
-3. # Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?  
+3. **Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?**  
 Tantangan utamanya adalah kompleksitas waktu. Tidak ada algoritma efisien yang diketahui (untuk komputer klasik) yang dapat menyelesaikan masalah logaritma diskrit dalam waktu polinomial. Metode paling sederhana adalah brute-force, yang mencoba setiap kemungkinan nilai eksponen `x`, yang menjadi tidak mungkin dilakukan `(infeasible)` ketika modulus `n` sangat besar (misalnya, 2048-bit). Algoritma yang lebih canggih seperti Number Field Sieve memang ada, tetapi kompleksitasnya masih cukup tinggi sehingga dengan memilih ukuran modulus yang cukup besar, keamanannya tetap terjamin. Kesulitan komputasional inilah yang menjadi dasar keamanan dari banyak sistem kriptografi.
 
 ---
