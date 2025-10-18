@@ -36,7 +36,7 @@ b. ECC (Elliptic Curve Cryptography): Alternatif modern untuk RSA yang menawarka
 ---
 
 ## 3. Alat dan Bahan
-- Python 3.13 atau terbaru  
+- Python 3.13  
 - Visual Studio Code
 - Git dan akun GitHub  
 
@@ -106,7 +106,7 @@ Program Caesar Cipher berhasil diimplementasikan sesuai dengan tujuan praktikum.
 
 Seperti yang ditunjukkan pada tabel, program berjalan tanpa error dan memberikan output yang benar sesuai dengan prinsip kerja Caesar Cipher. 
 
-Hasil eksekusi program Caesar Cipher:
+Hasil eksekusi program:
 ![Hasil Eksekusi](/praktikum/week2-cryptosystem/Screenshot/hasil_eksekusi.png)
 ![Diagram Kriptosistem](/praktikum/week2-cryptosystem/Screenshot/diagram_kriptosistem.png)
 
