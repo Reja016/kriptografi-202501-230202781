@@ -105,7 +105,7 @@ Praktikum ini menunjukkan bagaimana mengevaluasi kekuatan kriptosistem secara ku
 
 ## 10. Commit Log
 ```
-commit d3b9688d1e768a692eb85d151f251048b98bfd1c  
+commit 4962a7738b4f24a02766ce271ca145d71e7174b9  
 Author: Reza Dwi Nugroho <rejadwi016@gmail.com>  
 Date:   2025-11-04  
 
